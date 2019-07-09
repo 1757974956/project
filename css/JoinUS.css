@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.bgc{
+    background-color: rgb(3,24,51);
+}
+.h1{
+    animation: opcity 2s linear forwards;
+}
+@keyframes opcity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.page1_p{
+    transform: translateY(400px);
+    animation: translateY 0.5s linear 2s forwards;
+}
+.page1_div{
+    transform: translateY(400px);
+    animation: translateY 0.5s linear 2s forwards;
+}
+@keyframes translateY {
+    from{
+        opacity: 0;
+        transform: translateY(400px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.page1_img{
+    animation: img 5s linear forwards;
+}
+@keyframes img {
+    0%{
+        transform: scale3d(1, 1,1);
+    }
+    50%{
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100%{
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+}
+.nav1{
+    border-bottom: 0.05rem solid red;
+    padding-bottom: 0.2rem;
+}
+.box{
+    width: 100%;
+    overflow: hidden;
+}
+.box2{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.left{
+    float: left;
+    width: 4rem;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    float: right;
+}
+.right ul li{
+    float: left;
+    color: #fff;
+    font-size: 0.25rem;
+    text-align: center;
+    padding: 0.2rem 0.2rem 0;
+}
+.box .right .ul1{
+    overflow: hidden;
+    display: none;
+    left: 0.1rem;
+    margin-top: 0.15rem;
+    position: absolute;
+    z-index: 999;
+}
+.box .right .ul1 p{
+    font-size: 0.14rem;
+    padding: 0.2rem 0;
+}
+.box .right .li1{
+    position: relative;
+}
+.box .right .ul2{
+    overflow: hidden;
+    display: none;
+    left: 0rem;
+    margin-top: 0.15rem;
+    position: absolute;
+    z-index: 999;
+}
+.box .right .ul2 p{
+    font-size: 0.14rem;
+    padding: 0.15rem;
+}
+.box .right .li2{
+    position: relative;
+}
+.box .right .ul3{
+    overflow: hidden;
+    display: none;
+    left: 0.1rem;
+    margin-top: 0.15rem;
+    position: absolute;
+    z-index: 999;
+}
+.box .right .ul3 p{
+    font-size: 0.14rem;
+    width: 1rem;
+    padding: 0.15rem;
+}
+.box .right .li3{
+    position: relative;
+}
+.box .right .ul4{
+    overflow: hidden;
+    display: none;
+    margin-top: 0.15rem;
+    position: absolute;
+    left: 0.05rem;
+    z-index: 999;
+}
+.box .right .ul4 p{
+    font-size: 0.14rem;
+    width: 1rem;
+    padding: 0.16rem;
+}
+.box .right .li4{
+    position: relative;
+}
+/*page2*/
+.page2{
+    width: 100%;
+    margin-top: 0.7rem;
+    padding-bottom: 1rem;
+}
+.page2_container{
+    width: 75%;
+    margin: 0px auto;
+    border: 1px solid #8E8E8E;
+    padding: 0.4rem 1rem 0;
+    position: relative;
+}
+.page2_container h4{
+    color: #0A5BAF;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.3rem;
+}
+.page2_container p{
+    line-height: 3;
+    font-size: 0.2rem;
+    color: #666;
+}
+.page2_container .line{
+    width: 1rem;
+    position: absolute;
+    height: 1px;
+    background-color: #8E8E8E;
+}
+.page2_container .line1{
+    transform: rotate(45deg);
+    top: -0.38rem;
+    left: -0.86rem;
+}
+.page2_container .line2{
+    transform: rotate(135deg);
+    top: -0.38rem;
+    left: 15.9rem;
+}
+.page2_container .line3{
+    width: 2rem;
+    transform: rotate(45deg);
+    top: 6.04rem;
+    left: -1.7rem;
+}
+.page2_container .line4{
+    width: 2rem;
+    transform: rotate(135deg);
+    top: 6.03rem;
+    left: 15.77rem;
+}
+/*page3*/
+.page3{
+    width: 100%;
+}
+.page3_container{
+    width: 80%;
+    margin: 0 auto;
+}
+.page3_container .page3_one{
+    border-bottom: 1px solid #ccc;
+    margin-bottom:1rem;
+}
+.page3_container .page3_one p{
+    text-align: center;
+    color: #0A5BAF;
+    font-size: 0.3rem;
+    font-weight: bolder;
+    margin: 0.5rem 0;
+    line-height: 2;
+}
+.span{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    transform: rotate(135deg);
+    border-top: 1px solid #c8c8cd;
+    border-right: 1px solid #c8c8cd;
+}
+.color{
+    border-color: red !important;
+}
+.active{
+    border-bottom: 1px solid red !important;
+}
+.page3_txt{
+    width: 100%;
+    display: none;
+}
+.page3_txt h4{
+    font-size: 0.25rem;
+    color: #0A5BAF;
+}
+.page3_container .page3_txt p{
+    color: #666;
+    text-align: left;
+    font-size: 0.2rem;
+    margin: 0.2rem 0;
+}
+/*.page4*/
+.page4{
+    width: 100%;
+    position: relative;
+}
+.page4_container .plan{
+    position: absolute;
+    top: 0;
+    font-size: 0.2rem;
+    color: #fff;
+    padding: 0 2.52rem;
+}
+.page4 img{
+    width: 100%;
+}
+.page4_p{
+    animation: page4_p 2s linear forwards;
+}
+@keyframes page4_p {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.page4_p2{
+    transform: translateY(400px);
+    opacity: 0;
+    animation: page4_p2 0.5s linear 1.5s forwards;
+}
+@keyframes page4_p2 {
+    from{
+        opacity: 0;
+        transform: translateY(400px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.page5{
+    width: 100%;
+}
+.page5_container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.2rem 0;
+    overflow: hidden;
+}
+.page5_left{
+    float: left;
+    width: 60%;
+}
+.page5_container h1{
+    font-size: 0.45rem;
+    font-weight: bold;
+    color: #0059AA;
+    -webkit-animation: page4_p 1s linear forwards;
+    -o-animation: page4_p 1s linear forwards;
+    animation: page4_p 1s linear forwards;
+}
+.page5_container h4{
+    transform: translateY(400px);
+    opacity: 0;
+    font-size: 0.22rem;
+    color: #989898;
+    -webkit-animation: page4_p2 0.5s linear 1.5s forwards;
+    -o-animation: page4_p2 0.5s linear 1.5s forwards;
+    animation: page4_p2 0.5s linear 1.5s forwards;
+    margin-bottom: 0.3rem;
+    font-weight: normal;
+}
+.page5_div{
+    width: 100%;
+    overflow: hidden;
+    line-height: 0.3rem;
+}
+.page5_div img{
+    width: 22px;
+    margin-top: 0.25rem;
+}
+.page5_div .one{
+    float: left;
+    display: inline;
+}
+.page5_div p{
+    font-size: 0.2rem;
+    display: inline-block;
+    margin-left: 0.2rem;
+    color: #666;
+}
+.page5_right{
+    float: left;
+    width: 40%;
+}
+.page5_right img{
+    width: 2.8rem;
+}
+.page5_right p{
+    font-size: 0.25rem;
+    text-align: center;
+}
+.page5_footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+.page5_one{
+    overflow: hidden;
+}
+.page5_one div{
+    float: left;
+    margin: auto;
+}
+/*尾部版权信息*/
+.end{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    height:0.9rem;
+    line-height:0.9rem;
+    background-color: #404040;
+    font-size: 0.2rem;
+}
+.end img{
+    width: 18px;
+}
+.end span:nth-child(2){
+    margin: 0px 0.15rem;
+}
+.end .span1{
+    position: relative;
+    display: inline-block;
+}
+.end .span1 img:nth-child(2){
+    position: absolute;
+    width: 2rem !important;
+    bottom: 0.8rem;
+    left: -0.8rem;
+    display: none;
+}
+.end .span2{
+    position: relative;
+    display: inline-block;
+}
+.end .span2 img:nth-child(2){
+    position: absolute;
+    width: 2rem !important;
+    bottom: 0.8rem;
+    left: -0.7rem;
+    display: none;
+}
+/*返回顶部按钮*/
+.row{
+    width: 0.6rem;
+    height: 0.6rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    opacity: 0;
+}
+.back img{
+    position: absolute;
+    top: 50%;
+    margin-top: 0.23rem;
+    left: 50%;
+    margin-left: -7px;
+}
+.back{
+    position: relative;
+}
+.backTop{
+    animation: back 0.5s linear forwards;
+}
+@keyframes back {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.backOut{
+    animation: out 0.3s linear forwards;
+}
+@keyframes out {
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}

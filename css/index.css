@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.h1{
+    animation: opcity 2s linear forwards;
+}
+@keyframes opcity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.page1_p{
+    transform: translateY(400px);
+    animation: translateY 0.5s linear 2s forwards;
+}
+.page1_div{
+    transform: translateY(400px);
+    animation: translateY 0.5s linear 2s forwards;
+}
+@keyframes translateY {
+    from{
+        opacity: 0;
+        transform: translateY(400px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.page1_img{
+    animation: img 5s linear forwards;
+}
+@keyframes img {
+    0%{
+        transform: scale3d(1, 1,1);
+    }
+    50%{
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100%{
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+}
+.nav1{
+    border-bottom: 0.05rem solid red;
+    padding-bottom: 0.2rem;
+}
+.box{
+    width: 100%;
+    overflow: hidden;
+}
+.box2{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.left{
+    float: left;
+    width: 4rem;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    float: right;
+}
+.right ul li{
+    float: left;
+    color: #fff;
+    font-size: 0.25rem;
+    text-align: center;
+    padding: 0.2rem 0.2rem 0;
+}
+.box .right .ul1{
+    overflow: hidden;
+    display: none;
+    left: 0.1rem;
+    margin-top: 0.15rem;
+    position: absolute;
+    z-index: 999;
+}
+.box .right .ul1 p{
+    font-size: 0.14rem;
+    padding: 0.2rem 0;
+}
+
+.bgc{
+    background-color: rgb(3,24,51);
+}
+
+.box .right .li1{
+    position: relative;
+}
+.box .right .ul2{
+    overflow: hidden;
+    display: none;
+    left: 0rem;
+    margin-top: 0.15rem;
+    position: absolute;
+    z-index: 999;
+}
+.box .right .ul2 p{
+    font-size: 0.14rem;
+    padding: 0.15rem;
+}
+.box .right .li2{
+    position: relative;
+}
+.box .right .ul3{
+    overflow: hidden;
+    display: none;
+    left: 0.1rem;
+    margin-top: 0.15rem;
+    position: absolute;
+    z-index: 999;
+}
+.box .right .ul3 p{
+    font-size: 0.14rem;
+    width: 1rem;
+    padding: 0.15rem;
+}
+.box .right .li3{
+    position: relative;
+}
+.box .right .ul4{
+    overflow: hidden;
+    display: none;
+    margin-top: 0.15rem;
+    position: absolute;
+    left: 0.05rem;
+    z-index: 999;
+}
+.box .right .ul4 p{
+    font-size: 0.14rem;
+    width: 1rem;
+    padding: 0.16rem;
+}
+.box .right .li4{
+    position: relative;
+}
+.active{
+    transform: translateX(0.4rem);
+    animation: fadeIn 0.3s linear forwards;
+}
+@keyframes fadeIn {
+    from{
+        transform: translateX(0rem);
+    }
+    to{
+        transform: translateX(0.4rem);
+    }
+}
+.active1{
+    transform: translateX(0.4rem);
+    animation: fadeIn1 0.3s linear forwards;
+}
+@keyframes fadeIn1 {
+    from{
+        transform: translateX(0.4rem);
+    }
+    to{
+        transform: translateX(0.4rem);
+    }
+}
+.h1{
+    animation: opcity 2s linear forwards;
+}
+@keyframes opcity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.page1_p{
+    transform: translateY(400px);
+    animation: translateY 0.5s linear 2s forwards;
+}
+.page1_div{
+    transform: translateY(400px);
+    animation: translateY 0.5s linear 2s forwards;
+}
+@keyframes translateY {
+    from{
+        opacity: 0;
+        transform: translateY(400px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.page1_img{
+    animation: img 5s linear forwards;
+}
+@keyframes img {
+    0%{
+        transform: scale3d(1, 1,1);
+    }
+    50%{
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100%{
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+}
+/*page2*/
+.page2{
+    position: relative;
+    margin-top:-0.3rem;
+}
+.page2_lefr{
+    position: absolute;
+    left: 8%;
+    top: 29%;
+    margin-top: -2rem;
+    z-index: 1;
+}
+.page2_lefr li{
+    color: #fff;
+}
+.page2_lefr li:nth-child(n){
+    width: 3.5rem;
+    height: 2rem;
+    text-align: center;
+    background-color: #005BAC;
+    font-size: 0.2rem;
+}
+.page2_lefr li:nth-child(2n){
+    width: 3.5rem;
+    height: 2rem;
+    text-align: center;
+    background-color: #489AEE;
+    font-size: 0.2rem;
+}
+.bg1{
+    position: relative;
+    margin-top: -0.3rem;
+}
+.bg_right{
+    position: absolute;
+    right: 8%;
+    width: 40%;
+    top: 35%;
+    margin-top: -1rem;
+    color: white;
+    font-size: 0.4rem;
+}
+.page3{
+    width: 100%;
+}
+.page3 .page3_container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.page3 .page3_container .page3_one{
+    width:26%;
+    float: left;
+    text-align:center;
+}
+.page3 .btn{
+    width: 2rem;
+    height: 0.6rem;
+    background-color: #005BAC;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+    margin: 0.2rem auto;
+    font-size: 0.2rem;
+}
+.page4{
+    background-color: #4B6EA6;
+    width: 100%;
+}
+.page4_container{
+    width: 100%;
+    overflow: hidden;
+}
+.page4_container div{
+    width: 50%;
+    float: left;
+}
+.page4_container div img{
+    width: 100%;
+}
+.page4_container div img:nth-child(2){
+    display: none;
+}
+.page4_container .text{
+    width: 2.68rem;
+    height: 0.4rem;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 50%;
+    margin-top: -0.2rem;
+    left: 50%;
+    margin-left: -1.34rem;
+    font-weight: bolder;
+    font-size: 0.4rem;
+}
+.page5{
+    background: url("../images/banner_5.jpg") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 8.76rem;
+    margin-top: -0.3rem;
+}
+.page5 p{
+    color: #fff;
+    text-align: center;
+}
+.page5 .btn1{
+    width: 2rem;
+    height: 0.5rem;
+    border: 1px solid #fff;
+    margin: 0rem auto;
+    line-height: 0.5rem;
+    font-size: 0.2rem;
+    margin-top: 1rem;
+}
+.page6{
+    width: 100%;
+}
+.page6 .img{
+    width: 90%;
+    margin: 0rem auto;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.page6 .img div{
+    float: left;
+    width: 16.6%;
+    height: 0.8rem;
+    margin: 0.5rem 0rem;
+}
+.page6 .img div img{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    background-color: #565656;
+}
+.footer .footer_container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 4.3rem;
+}
+.footer_container .footer_left{
+    float: left;
+    width: 50%;
+    color: #fff;
+    font-size: 0.12rem;
+}
+.footer_container .footer_left{
+    float: left;
+    width: 50%;
+}
+.footer_container .footer_right {
+    overflow: hidden;
+    width: 50%;
+    color: #fff;
+    font-size: 0.12rem;
+    margin-top: 1.5rem;
+}
+.footer_container .footer_right ul li{
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+}
+.footer_container .footer_right ul li:nth-child(1){
+    font-weight: bolder;
+    margin-bottom: 0.1rem;
+    font-size: 0.25rem;
+}
+.footer_container .footer_right div{
+    text-align: center;
+    width: 24%;
+    float: left;
+    border-right: 1px solid #fff;
+}
+.footer_container .footer_right div:nth-child(4){
+    border-right: none;
+}
+.end{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    height:0.8rem;
+    line-height: 0.8rem;
+    background-color: #404040;
+    font-size: 0.2rem;
+}
+.end img{
+    width: 0.3rem;
+}
+.end span:nth-child(2){
+    margin: 0rem 0.3rem;
+}
+.end .span1{
+    position: relative;
+    display: inline-block;
+}
+.end .span1 img:nth-child(2){
+    position: absolute;
+    width: 2rem !important;
+    bottom: 0.8rem;
+    left: -0.8rem;
+    display: none;
+}
+.end .span2{
+    position: relative;
+    display: inline-block;
+}
+.end .span2 img:nth-child(2){
+    position: absolute;
+    width: 2rem !important;
+    bottom: 0.8rem;
+    left: -0.7rem;
+    display: none;
+}
+/*返回顶部按钮*/
+.row{
+    width: 0.6rem;
+    height: 0.6rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    opacity: 0;
+}
+.back img{
+    position: absolute;
+    top: 50%;
+    margin-top: 0.23rem;
+    left: 50%;
+    margin-left: -7px;
+}
+.back{
+    position: relative;
+    
+}
+.backTop{
+    -webkit-animation: back 0.5s linear forwards;
+    -o-animation: back 0.5s linear forwards;
+    animation: back 0.5s linear forwards;
+}
+@keyframes back {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.backOut{
+    -webkit-animation: out 0.3s linear forwards;
+    -o-animation: out 0.3s linear forwards;
+    animation: out 0.3s linear forwards;
+}
+@keyframes out {
+     from{
+         opacity:1;
+     }
+     to{
+         opacity:0;
+     }
+ }
